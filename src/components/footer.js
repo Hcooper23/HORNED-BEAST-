@@ -3,7 +3,9 @@ import { Component } from 'react';
  class Footer extends Component{
      render() {
        return (
-         <footer>Hayden Cooper</footer>
+        <footer>
+         <p>{this.props.closer}</p>
+         </footer>
        )
      }
  }
