@@ -1,5 +1,4 @@
 import { Component } from 'react';
- import Image from 'react-bootstrap/Image';
  import { Card } from 'react-bootstrap';
  class HornedBeast extends Component {
    constructor(props) {
