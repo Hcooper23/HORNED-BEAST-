@@ -26,6 +26,14 @@ In this class, your goal is to use the JSON file provided to display the title, 
 - Create a SelectedBeast component and include it in your App
 - Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
 
+Estimate of time needed to complete: 3 Hours
+
+Start time: 3:00PM Eastern Standard Time
+
+Finish time: 6:30PM Eastern Standard Time
+
+Actual time needed to complete: 3 Hours and 30 Minutes
+
 ## Submission Instructions
 
 - Complete your Feature Tasks for the day
