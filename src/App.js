@@ -5,7 +5,7 @@ import Main from './components/main';
 import Footer from './components/footer';
 import Data from './components/data.json';
 import SelectedBeast from './components/SelectedBeast';
-
+import './App.css'
 class App extends Component {
   constructor(props) {
     super(props);
@@ -27,9 +27,9 @@ onHide = () => {
 
 render() {
   return (
-    <div>
-      <Header title="Horned Beast" />
-      <Main allBeasts={this.state.beasts} display={this.display} />
+    <div className='container'>
+      <Header className='header' title="Horned Beast" style={{backgroundcolor: 'blue'}}/>
+      <Main className='main' allBeasts={this.state.beasts} display={this.display} />
       <SelectedBeast
         beast={this.state.selectedBeast}
         display={this.state.display}
