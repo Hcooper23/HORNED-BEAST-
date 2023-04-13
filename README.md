@@ -1,38 +1,25 @@
 ## Overview
 
-By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the images by number of horns and chose your favorite image.
-
-In this class, your goal is to use the JSON file provided to display the title, image and description of each horned beast in your application.
+This is the last class of our Gallery Of Horns. You have horned creatures displaying on the page. When you click on a beast, you increase its favorites and display it as a modal. We will be adding one more piece of functionality: filtering by numbers of horns.
 
 ## Feature Tasks
 
 ## Feature #1: Display a Modal
 
-- Why are we implementing this feature?
+## Why are we implementing this feature?
 
-  -As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+- As a user, I want to be able to view the beasts by the number of horns
 
 ## What are we going to implement?
 
-- Given that a user wants to view the details of the image
-- When the user clicks on an individual image
-- Then the image should render larger on the screen with the description displayed
-  
+- Given that a user is presented with filtering options
+- When the user clicks on one option
+- Then the images should be filtered accordingly
+
 ## How are we implementing it?
 
-- Import the data.json file into your App component and send that data into the Main component
-- Map over the JSON data in your Main component to render each beast
-- Send a function into your Main component that allows the user to update state in the App
-- Create a SelectedBeast component and include it in your App
-- Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
-
-Estimate of time needed to complete: 3 Hours
-
-Start time: 3:00PM Eastern Standard Time
-
-Finish time: 6:30PM Eastern Standard Time
-
-Actual time needed to complete: 3 Hours and 30 Minutes
+- Using the Form component of react-bootstrap, build a drop down menu so that the user can choose to filter by number of horns.
+- When the user chooses one of the options, the correct images should be displayed.
 
 ## Submission Instructions
 
