@@ -11,7 +11,11 @@ class SelectedBeast extends Component {
         <Modal.Body>
           <Card onClick={this.display}>
             <Card.Img src={this.props.beast.image_url} />
-            <Card.Text>{this.props.beast.description}</Card.Text>
+            <Card.Text>
+              {this.props.beast.description}
+              <br />
+              Number of Horns: {this.props.beast.horns}
+            </Card.Text>
           </Card>
         </Modal.Body>
         <Modal.Footer>
